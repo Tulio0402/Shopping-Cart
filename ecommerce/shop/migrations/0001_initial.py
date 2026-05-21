@@ -51,3 +51,4 @@ class Migration(migrations.Migration):
             index_together={('id', 'slug')},
         ),
     ]
+

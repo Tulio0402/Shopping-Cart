@@ -99,3 +99,4 @@ def sysconfig_get_config_vars(*args):
     return real_vars
 sysconfig_get_config_vars.__doc__ = old_get_config_vars.__doc__
 sysconfig.get_config_vars = sysconfig_get_config_vars
+
